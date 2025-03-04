@@ -2,7 +2,7 @@
 Last updated: March 3, 2025
 
 ## On-Premises
--Raspberry Pi 3: Running IPFire (Firewall)
+-Raspberry Pi 3: Running Firewall
 
 -Raspberry Pi 5: Running Kali Linux (Secondary PC)
 
@@ -19,6 +19,10 @@ Last updated: March 3, 2025
 -CasaOS
 
 -KeePassDX
+
+-Ipfire
+
+-TailsOS
 
 ## Miscellaneous
 USB Flash Drive: Running TailsOS for Tor Connection
