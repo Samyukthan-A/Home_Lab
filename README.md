@@ -15,7 +15,9 @@ Last updated: March 3, 2025
 
 ## Software
 -Ngrok
+
 -CasaOS
+
 -KeePassDX
 
 ## Miscellaneous
