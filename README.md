@@ -32,8 +32,11 @@ Last updated: March 3, 2025
 -Ubuntu Server
 
 ## Miscellaneous
-USB Flash Drive: Running TailsOS for Tor Connection
-ESP32 marauder(Work in process)
-Pico Ducky
-Arduino UNO RFID(Work in process)
+-USB Flash Drive: Running TailsOS for Tor Connection
+
+-ESP32 marauder(Work in process)
+
+-Pico Ducky
+
+-Arduino UNO RFID(Work in process)
 
