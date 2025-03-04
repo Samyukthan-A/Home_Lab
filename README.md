@@ -24,8 +24,6 @@ Last updated: March 3, 2025
 
 -VMware Workstation
 
-
-
 ## Operating Systems
 -TailsOS
 -CasaOS
@@ -35,4 +33,7 @@ Last updated: March 3, 2025
 
 ## Miscellaneous
 USB Flash Drive: Running TailsOS for Tor Connection
+ESP32 marauder(Work in process)
+Pico Ducky
+Arduino UNO RFID(Work in process)
 
