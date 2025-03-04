@@ -1,4 +1,4 @@
-# Home Lab Setup
+# Home Lab 💻
 Last updated: March 3, 2025
 
 ## On-Premises
