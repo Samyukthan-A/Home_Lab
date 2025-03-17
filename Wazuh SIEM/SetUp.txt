@@ -1,0 +1,31 @@
+Wazuh Installation Guide
+Wazuh, a robust open-source security monitoring platform, offers multiple deployment options to suit various environments and use cases. Below are the primary on-premises installation methods available:
+
+Virtual Machine (VM): Deploy Wazuh on a virtualized environment such as VMware, VirtualBox, or Hyper-V.
+Docker: Utilize containerized deployment for simplified setup and scalability using Docker or Docker Compose.
+Linux: Install directly on a supported Linux distribution (e.g., Ubuntu, CentOS, or Debian) for a native, lightweight deployment.
+Other Options: Wazuh also supports cloud-based deployments (e.g., AWS, Azure) and clustered configurations for high availability and scalability.
+For comprehensive installation instructions, refer to the official Wazuh documentation: Wazuh Quickstart Guide. This resource provides step-by-step guidance tailored to each deployment method.
+
+Post-Installation Steps
+Once Wazuh is installed, access the web-based dashboard by entering the server's IP address in your browser. Log in using the default credentials provided in the documentation (ensure these are changed after initial login for security purposes).
+
+Important Pre-Installation Note
+Before deploying Wazuh agents on your devices, configure the Wazuh server with a static IP address. Agents communicate log data to the server via this IP, and it cannot be modified post-installation without reconfiguring the agents. Ensuring a fixed IP prevents connectivity issues.
+
+Agent Deployment
+To connect devices to the Wazuh server:
+
+Navigate to the "Agents" section in the dashboard.
+Select "Add Agent," choose the appropriate configuration for your operating system (e.g., Windows, Linux, macOS).
+Copy the generated command and execute it on the target device to install and register the agent.
+Minimum System Requirements
+To ensure optimal performance, the Wazuh server should meet or exceed the following specifications:
+
+RAM: 3 GB or higher
+Storage: 20 GB or more of free disk space (SSD recommended for faster log processing)
+CPU: 4 cores (multi-threading support recommended)
+My Deployment Experience
+I opted for a single-node installation, as it adequately meets my needs without requiring additional devices for processing. My setup is designed to manage log data from a maximum of 15 connected devices. The system's high scalability allows me to upgrade hardware resources (e.g., RAM, CPU) seamlessly if performance degradation occurs. This flexibility ensures long-term reliability and adaptability as my monitoring requirements evolve.
+
+For advanced configurations, such as multi-node clusters or integration with external tools (e.g., Elastic Stack), consult the Wazuh documentation or community resources.
